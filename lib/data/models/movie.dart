@@ -64,5 +64,5 @@ class Movie {
 
   Map<String, dynamic> toJson() => _$MovieToJson(this);
 
-  String get posterUrl => '$image_base_url$posterPath';
+  String get posterUrl => '$IMAGE_BASE_URL$posterPath';
 }

@@ -7,6 +7,6 @@ void main() {
     final path = 'sample/file.jpg';
     final movie = Movie(posterPath: path);
 
-    expect(movie.posterUrl, '$image_base_url$path');
+    expect(movie.posterUrl, '$IMAGE_BASE_URL$path');
   });
 }

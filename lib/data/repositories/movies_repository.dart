@@ -11,7 +11,7 @@ class MoviesRepository implements IMoviesRepository {
   @override
   Future<List<Movie>> getPopular(int page) async {
     try {
-      final popular = await apiClient.getPopular(api_key, page);
+      final popular = await apiClient.getPopular(API_KEY, page);
       return popular.results;
     } on Exception catch (e) {
       print(e.toString());
