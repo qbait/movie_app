@@ -28,3 +28,7 @@ To see how I used to approach similar problems using native Android development,
 * More unit tests
 * More widget tests
 * Driver tests
+
+## Running
+
+Project uses `build_runner`, please run `flutter pub run build_runner build` before building the project.
